@@ -1,0 +1,242 @@
+html {
+	min-height: 100%;
+	position: relative;
+}
+
+body {
+	height: 100%;
+	font-family: 'Karla', sans-serif;
+	font-size:  18px;
+	background: #000000;
+	color: #FFFFFF;
+}
+
+header {
+	margin-top: 100px;
+}
+
+h1 {
+	font-family:  'Rubik Mono One', Helvetica, sans-serif;
+	font-size: 40px;
+	text-align:  center;
+	margin-bottom:  5px;
+	color:  black;
+	line-height: 90%;
+}
+
+h2 {
+	font-size:  40px;
+	font-family: 'Rubik Mono One', Helvetica, sans-serif;
+	text-align:  center;
+	margin-top: 20vh;
+	margin-bottom: 20px;
+}
+
+nav {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	background: white;
+
+	line-height: 150%;
+	text-align:  center;
+	padding: 10px;
+}
+
+nav a {
+	display:  inline-block;
+	text-align:  left;
+	font-size:  95%;
+
+	background-color: #000000;
+	color:  #FFFFFF;
+
+	padding-left: 5px;
+	padding-right: 5px;
+	margin-left:  5px;
+	margin-right: 5px;
+	margin-bottom: 5px;
+
+	transition-property: background-color;
+	transition-duration: .2s;
+	transition-timing-function: linear;
+}
+nav a:link {
+	color:  #FFFFFF;
+	text-decoration: none;
+}
+nav a:visited {
+	color:  #FFFFFF;
+	text-decoration: none;
+}
+nav a:before {
+	color:  #FFFFFF;
+	text-decoration: none;
+}
+nav a:hover {
+	background-color:  #6a5acd;
+}
+
+a {
+	display:  inline-block;
+	text-align:  left;
+	font-size:  95%;
+	text-decoration: underline;
+
+	background-color:  #6a5acd;
+	color:  #FFFFFF;
+
+	transition-property: background-color;
+	transition-duration: .2s;
+	transition-timing-function: linear;
+}
+a:link {
+	color:  #FFFFFF;
+	text-decoration: none;
+	text-decoration: underline;
+}
+a:visited {
+	color:  #FFFFFF;
+	text-decoration: underline;
+}
+a:before {
+	color:  #FFFFFF;
+	text-decoration: underline;
+}
+a:hover {
+	background-color:  #000000;
+	text-decoration: underline;
+}
+
+.image {
+	width:  50%;
+	margin:  auto;
+	padding: 20px;
+	margin-bottom: 25px;
+	margin-top: 25px;
+
+	border-color: #6a5acd;
+	border-width: 5px;
+	border-style: solid;
+}
+
+img {
+	width:  100%;
+}
+
+.pictitle {
+	margin-top: -5px;
+	margin-bottom: 5px;
+}
+
+.caption {
+	text-align: center;
+	margin-top: 5px;
+}
+
+.image p {
+	line-height: 150%;
+}
+
+article {
+	width: 50%;
+	margin:  auto;
+}
+
+article p {
+	line-height: 150%;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	margin-left: -25px;
+	margin-right: -25px;
+}
+
+.purple {
+	color: #6a5acd;
+}
+.chonk {
+	font-family: 'Rubik Mono One';
+}
+
+h3 {
+	text-align:  center;
+	font-size: 30px;
+	font-family: 'Rubik Mono One';
+	margin-top: 25px;
+	margin-bottom: 25px;
+}
+
+.vid {
+	width:  50%;
+	margin:  auto;
+	padding: 20px;
+	margin-bottom: 25px;
+	margin-top: 25px;
+
+	border-color: #6a5acd;
+	border-width: 5px;
+	border-style: solid;
+}
+
+iframe {
+	width:  100%;
+}
+
+aside {
+	width:  50%;
+	margin:  auto;
+	padding-bottom:  20px;
+}
+
+summary {
+}
+
+details {
+	line-height: 150%;
+}
+
+footer {
+	text-align:  center;
+	padding:  20px;
+	margin-top: 50px;
+	margin-bottom: -10px;
+	background-color:  #6a5acd;
+
+}
+
+@media screen and (max-width: 600px) {
+	h1{
+		width: 100vw;
+	}
+	nav {
+		position: relative;
+		width: 105vw;
+	}
+	nav a{ 
+		display: inline-block;
+		font-size: 20px;
+	}
+	h2 {
+		margin-top: 10%;
+		margin-left: 25px;
+	}
+	.image {
+		width: 90%;
+		margin-left: 10px;
+	}
+	.vid {
+		width: 90%;
+		margin-left: 10px;
+	}
+	article {
+		width: 90%;
+		margin-left: 40px;
+	}
+	p {
+		font-size: 20px;
+	}
+	footer {
+		width: 100vw;
+	}
+
+}
